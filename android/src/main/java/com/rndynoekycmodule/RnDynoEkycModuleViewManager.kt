@@ -5,12 +5,13 @@ import android.view.View
 import com.facebook.react.uimanager.SimpleViewManager
 import com.facebook.react.uimanager.ThemedReactContext
 import com.facebook.react.uimanager.annotations.ReactProp
+import com.mv.engine.EKYCComponentView
 
 class RnDynoEkycModuleViewManager : SimpleViewManager<View>() {
   override fun getName() = "RnDynoEkycModuleView"
 
   override fun createViewInstance(reactContext: ThemedReactContext): View {
-    return View(reactContext)
+    return EKYCComponentView(reactContext.currentActivity?:reactContext)
   }
 
   @ReactProp(name = "color")

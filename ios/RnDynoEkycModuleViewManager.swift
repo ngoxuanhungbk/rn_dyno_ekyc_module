@@ -1,3 +1,5 @@
+import HeadPoseFramework
+
 @objc(RnDynoEkycModuleViewManager)
 class RnDynoEkycModuleViewManager: RCTViewManager {
 
@@ -7,7 +9,30 @@ class RnDynoEkycModuleViewManager: RCTViewManager {
 }
 
 class RnDynoEkycModuleView : UIView {
+    
+    let customView = DynoEkycView()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupView()
+    }
 
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupView()
+    }
+
+    private func setupView(){
+        self.addSubview(customView)
+    }
+    
+    override func layoutSublayers(of layer: CALayer) {
+        super.layoutSublayers(of: layer)
+        customView.frame = self.bounds
+    }
+
+    
+    
   @objc var color: String = "" {
     didSet {
       self.backgroundColor = hexStringToUIColor(hexColor: color)
