@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/ngoxuanhungbk",
+  "repository": "https://github.com/ngoxuanhungbk/rn_dyno_ekyc_module",
   "author": "DYNO <hungnx@dyno.vn> (https://dyno.vn)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngoxuanhungbk/issues"
+    "url": "https://github.com/ngoxuanhungbk/rn_dyno_ekyc_module"
   },
-  "homepage": "https://github.com/ngoxuanhungbk#readme",
+  "homepage": "https://github.com/ngoxuanhungbk/rn_dyno_ekyc_module",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

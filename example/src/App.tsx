@@ -6,7 +6,7 @@ import { RnDynoEkycModuleView } from 'rn_dyno_ekyc_module';
 export default function App() {
   return (
     <View style={styles.container}>
-      <RnDynoEkycModuleViewManager color="#32a852" style={styles.box} />
+      <RnDynoEkycModuleView color="#32a852" style={styles.box} />
     </View>
   );
 }
@@ -18,8 +18,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   box: {
-    width: 60,
-    height: 60,
+    width: '100%',
+    height: '50%',
     marginVertical: 20,
   },
 });
