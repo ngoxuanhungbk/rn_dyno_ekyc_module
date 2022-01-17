@@ -4,6 +4,7 @@ import {
   Platform,
   ViewStyle,
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 const LINKING_ERROR =
   `The package 'rn_dyno_ekyc_module' doesn't seem to be linked. Make sure: \n\n` +
@@ -12,8 +13,14 @@ const LINKING_ERROR =
   '- You are not using Expo managed workflow\n';
 
 type RnDynoEkycModuleProps = {
-  color: string;
   style: ViewStyle;
+  onSuccess: PropTypes.func;
+  normal: string;
+  faceUp: string;
+  faceDown: string;
+  faceLeft: string;
+  faceRight: string;
+  blink: string;
 };
 
 const ComponentName = 'RnDynoEkycModuleView';
