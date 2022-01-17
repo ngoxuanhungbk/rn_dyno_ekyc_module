@@ -1,6 +1,6 @@
 {
   "name": "rn_dyno_ekyc_module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "verify people",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
