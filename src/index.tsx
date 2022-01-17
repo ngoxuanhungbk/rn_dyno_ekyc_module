@@ -4,7 +4,7 @@ import {
   Platform,
   ViewStyle,
 } from 'react-native';
-import PropTypes from 'prop-types';
+import {func} from 'prop-types';
 
 const LINKING_ERROR =
   `The package 'rn_dyno_ekyc_module' doesn't seem to be linked. Make sure: \n\n` +
@@ -14,7 +14,7 @@ const LINKING_ERROR =
 
 type RnDynoEkycModuleProps = {
   style: ViewStyle;
-  onSuccess: PropTypes.func;
+  onSuccess: func;
   normal: string;
   faceUp: string;
   faceDown: string;
