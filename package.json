@@ -143,8 +143,5 @@
         }
       ]
     ]
-  },
-  "dependencies": {
-    "prop-types": "^15.8.1"
   }
 }
