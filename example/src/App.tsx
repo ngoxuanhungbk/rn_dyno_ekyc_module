@@ -1,11 +1,14 @@
-import * as React from 'react';
+import React from 'react';
 
 import { StyleSheet, View } from 'react-native';
 import { RnDynoEkycModuleView } from 'rn_dyno_ekyc_module';
 
 export default function App() {
+
   const _onSuccess = (event) => {
-    console.warn(event);
+    const { isSuccess, filePath } = event.nativeEvent;
+    console.warn(isSuccess);
+    console.warn(filePath);
   };
 
   return (

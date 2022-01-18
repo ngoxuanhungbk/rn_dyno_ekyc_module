@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Assets.car</key>
-		<data>
-		+Q1FsL9fjdzIKcpavhn4F+Bj/E0=
-		</data>
 		<key>DynoEkycView.nib/objects-11.0+.nib</key>
 		<data>
-		i+VHjRxmGuruStHNM71nmSVd998=
+		8Hr2I9eVjGWCVVkEFXeoYi3mMJ8=
 		</data>
 		<key>DynoEkycView.nib/runtime.nib</key>
 		<data>
-		sX6XDDWbBXVBAS0bplRvX9DGqPw=
+		uVBYE3ywmxvKns6XWDjV2qk9ojY=
 		</data>
 		<key>Headers/HeadPoseFramework-Swift.h</key>
 		<data>
@@ -38,11 +34,11 @@
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RJgAa8JShn4seJGdiSoeTayKGhI=
+		jibTe3QTWVcrZiosXT+vBw0/LPI=
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OogjRT0ZvnGrURzDlcqTzsYfC+8=
+		udsDq2u9v79YifuaSr8VsnRwAdQ=
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -50,11 +46,11 @@
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/i386.swiftinterface</key>
 		<data>
-		RJgAa8JShn4seJGdiSoeTayKGhI=
+		jibTe3QTWVcrZiosXT+vBw0/LPI=
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/i386.swiftmodule</key>
 		<data>
-		OogjRT0ZvnGrURzDlcqTzsYfC+8=
+		udsDq2u9v79YifuaSr8VsnRwAdQ=
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,11 +58,11 @@
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ChKH5Gujs+2VzRpON70+bnE0pxM=
+		XOJ2xBVmDdFomxzF5NsTgnHnV3Q=
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yj5JKIYFtuQ4tEJbte45a4O+6Rc=
+		2s224cxr0A03HKSVDoQSU1543PY=
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -74,11 +70,11 @@
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ChKH5Gujs+2VzRpON70+bnE0pxM=
+		XOJ2xBVmDdFomxzF5NsTgnHnV3Q=
 		</data>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		yj5JKIYFtuQ4tEJbte45a4O+6Rc=
+		2s224cxr0A03HKSVDoQSU1543PY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -108,40 +104,37 @@
 		<data>
 		An4vljD1hdK5c3SJsRMvAgw0skg=
 		</data>
+		<key>ic_close.png</key>
+		<data>
+		CoKGUtN+WVMKiIxHtLn7ZL4m9+w=
+		</data>
+		<key>ic_tick.png</key>
+		<data>
+		SN743232a0GnLFDzepDGPjc7eXQ=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Assets.car</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+Q1FsL9fjdzIKcpavhn4F+Bj/E0=
-			</data>
-			<key>hash2</key>
-			<data>
-			twuI+Q1qCox7m6R2xMOU1cgxyxfy5LpnVn51cZ37a60=
-			</data>
-		</dict>
 		<key>DynoEkycView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i+VHjRxmGuruStHNM71nmSVd998=
+			8Hr2I9eVjGWCVVkEFXeoYi3mMJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SzTk9CxvaXUAGDBg3qTdDA7+ynbFcB27IDFlPOTpnrE=
+			4odPl3piRfYl+6wzS0JEt+VGOa5kOmEMhNuOz+s3Iao=
 			</data>
 		</dict>
 		<key>DynoEkycView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sX6XDDWbBXVBAS0bplRvX9DGqPw=
+			uVBYE3ywmxvKns6XWDjV2qk9ojY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/bpktEtTxC5UTRIMMdwaeeA8P06Y3D7U26wgxJ1yPFU=
+			hJu/n+MapIfkmJIGzToUB95xHVjMA5aNWWSpcZaCjCw=
 			</data>
 		</dict>
 		<key>Headers/HeadPoseFramework-Swift.h</key>
@@ -192,22 +185,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RJgAa8JShn4seJGdiSoeTayKGhI=
+			jibTe3QTWVcrZiosXT+vBw0/LPI=
 			</data>
 			<key>hash2</key>
 			<data>
-			QNbGIHPx2p1ssm36W5biTRB9pvu6RRm/79wUvR6NaXQ=
+			25maxJDf/6Gq8xpkOGCmEUxrwmQ2ZAv5miWCjTQB5xM=
 			</data>
 		</dict>
 		<key>Modules/HeadPoseFramework.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OogjRT0ZvnGrURzDlcqTzsYfC+8=
+			udsDq2u9v79YifuaSr8VsnRwAdQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			deekG4cQJpanaOTVjPNQFKeuRAC1SsVw5MqwuC0SvuM=
+			eeD0kxySWnMDYbWENIfnbQzTd0d7j7rjvtWOrWZP+10=
 			</data>
 		</dict>
 		<key>Modules/HeadPoseFramework.swiftmodule/i386.swiftdoc</key>
@@ -225,22 +218,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RJgAa8JShn4seJGdiSoeTayKGhI=
+			jibTe3QTWVcrZiosXT+vBw0/LPI=
 			</data>
 			<key>hash2</key>
 			<data>
-			QNbGIHPx2p1ssm36W5biTRB9pvu6RRm/79wUvR6NaXQ=
+			25maxJDf/6Gq8xpkOGCmEUxrwmQ2ZAv5miWCjTQB5xM=
 			</data>
 		</dict>
 		<key>Modules/HeadPoseFramework.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OogjRT0ZvnGrURzDlcqTzsYfC+8=
+			udsDq2u9v79YifuaSr8VsnRwAdQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			deekG4cQJpanaOTVjPNQFKeuRAC1SsVw5MqwuC0SvuM=
+			eeD0kxySWnMDYbWENIfnbQzTd0d7j7rjvtWOrWZP+10=
 			</data>
 		</dict>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -258,22 +251,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ChKH5Gujs+2VzRpON70+bnE0pxM=
+			XOJ2xBVmDdFomxzF5NsTgnHnV3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			MITIc86H1NTUZvG3x7zOOC/mlHjDEZ6Gil12bw72NbY=
+			RwHgahAgxGY9HcwMb1ne94s07j7PG4ToU3KIt5IC2K4=
 			</data>
 		</dict>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yj5JKIYFtuQ4tEJbte45a4O+6Rc=
+			2s224cxr0A03HKSVDoQSU1543PY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ta1FW9OVcOumr9z/RPeaOUYKkznZ0mrV/w+i1mQNmWc=
+			8kk9DojbHWDn6jRCPdVuaru/B3nNdfveGee5xNofBMs=
 			</data>
 		</dict>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -291,22 +284,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ChKH5Gujs+2VzRpON70+bnE0pxM=
+			XOJ2xBVmDdFomxzF5NsTgnHnV3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			MITIc86H1NTUZvG3x7zOOC/mlHjDEZ6Gil12bw72NbY=
+			RwHgahAgxGY9HcwMb1ne94s07j7PG4ToU3KIt5IC2K4=
 			</data>
 		</dict>
 		<key>Modules/HeadPoseFramework.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yj5JKIYFtuQ4tEJbte45a4O+6Rc=
+			2s224cxr0A03HKSVDoQSU1543PY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ta1FW9OVcOumr9z/RPeaOUYKkznZ0mrV/w+i1mQNmWc=
+			8kk9DojbHWDn6jRCPdVuaru/B3nNdfveGee5xNofBMs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -384,6 +377,28 @@
 			<key>hash2</key>
 			<data>
 			hNGoE9MlVqYnKGGGDLEwWcZ+rdQMQ+JjeHLL/nFChuI=
+			</data>
+		</dict>
+		<key>ic_close.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CoKGUtN+WVMKiIxHtLn7ZL4m9+w=
+			</data>
+			<key>hash2</key>
+			<data>
+			+TN2A9VefNqhFGbvnQbUch+EyGM2P9RmnjgBxvoV2+k=
+			</data>
+		</dict>
+		<key>ic_tick.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SN743232a0GnLFDzepDGPjc7eXQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			TMbqIrLPXmjBbRTzJr25+VvHWDr/GGmJwb4vdsWUCr0=
 			</data>
 		</dict>
 	</dict>

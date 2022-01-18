@@ -13,9 +13,25 @@ npm install rn_dyno_ekyc_module
 ```js
 import { RnDynoEkycModuleView } from "rn_dyno_ekyc_module";
 
-// ...
+// if platform is Android, please check Permisstion before use module
 
-<RnDynoEkycModuleView color="tomato" />
+const _onSuccess = (event) => {
+    // isSuccess == True if user pass, filePath is url image user
+    const { isSuccess, filePath } = event.nativeEvent;
+    console.warn(isSuccess);
+    console.warn(filePath);
+  };
+
+<RnDynoEkycModuleView
+        style={{width: '100%',aspectRatio: 480 / 640,}}
+        onSuccess={_onSuccess}
+        faceUp="Ngửa mặt"
+        faceDown="Cúi mặt"
+        faceLeft="Quay trái"
+        faceRight="Quay phải"
+        blink="Nháy mắt"
+        normal="Nhìn thẳng"
+      />
 ```
 
 ## Contributing

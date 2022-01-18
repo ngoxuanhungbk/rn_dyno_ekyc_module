@@ -8,7 +8,12 @@ class RnDynoEkycModuleViewManager: RCTViewManager {
   }
 }
 
-class RnDynoEkycModuleView : UIView {
+class RnDynoEkycModuleView : UIView,ReceiverResultDelegate {
+    
+    func receiverResult(isSuccess: Bool, filePath: String) {
+        self.onSuccess?(["isSuccess":isSuccess,
+                         "filePath":filePath])
+    }
     
     let customView = DynoEkycView()
     
@@ -24,6 +29,7 @@ class RnDynoEkycModuleView : UIView {
 
     private func setupView(){
         self.addSubview(customView)
+        customView.receiverResultDelegate = self
     }
     
     override func layoutSublayers(of layer: CALayer) {
@@ -38,6 +44,44 @@ class RnDynoEkycModuleView : UIView {
       self.backgroundColor = hexStringToUIColor(hexColor: color)
     }
   }
+    
+    @objc var normal: String = "Noraml"{
+        didSet{
+            customView.normalString = normal
+        }
+    }
+    
+    @objc var faceUp: String = "Face up"{
+        didSet{
+            customView.faceUpString = faceUp
+        }
+    }
+    
+    @objc var faceDown: String = "Face down"{
+        didSet{
+            customView.faceDownString = faceDown
+        }
+    }
+    
+    @objc var faceLeft: String = "Face left"{
+        didSet{
+            customView.faceLeftString = faceLeft
+        }
+    }
+    
+    @objc var faceRight: String = "Face right"{
+        didSet{
+            customView.faceRightString = faceRight
+        }
+    }
+    
+    @objc var blink: String = "Blink"{
+        didSet{
+            customView.blinkString = blink
+        }
+    }
+    
+    @objc var onSuccess: RCTDirectEventBlock? = nil
 
   func hexStringToUIColor(hexColor: String) -> UIColor {
     let stringScanner = Scanner(string: hexColor)
